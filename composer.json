@@ -1,0 +1,27 @@
+{
+    "name": "ramprasadm1986/yii2-paypal",
+    "description": "Bitcko Yii2 Paypal Checkout Extension use to integrate Paypal payments in your project using Paylpal php SDK",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","PayPal","Checkout","PayPal Php Checkout","paypal checkout","payment","simple online payment","PayPal developer","PayPal Checkout","paypal", "payments", "rest", "sdk", "orders", "checkout"],
+     "license": "https://github.com/ramprasadm1986/yii2-paypal/blob/master/LICENSE",
+    "homepage": "https://github.com/ramprasadm1986/yii2-paypal/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ramprasad Moharana",
+            "email": "ramprasad@krititech.in"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "paypal/paypal-checkout-sdk":"*"
+        
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "ramprasadm1986\\paypal\\": ""
+        }
+    }
+}
+
