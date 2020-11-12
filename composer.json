@@ -6,6 +6,7 @@
      "license": "https://github.com/ramprasadm1986/yii2-paypal/blob/master/LICENSE",
     "homepage": "https://github.com/ramprasadm1986/yii2-paypal/",
     "license": "Apache-2.0",
+    "version": "1.0.2",
     "authors": [
         {
             "name": "Ramprasad Moharana",
