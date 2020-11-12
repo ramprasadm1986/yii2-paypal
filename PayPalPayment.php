@@ -10,11 +10,12 @@ use PayPalCheckoutSdk\Orders\OrdersCreateRequest;
 use yii\web\HttpException;
 use yii\helpers\Url;
 use Yii;
+
 class PayPalPayment
 {
     
    
-    public $mode;
+    public $live;
     public $intent;
     public $clientId;
     public $clientSecret;
@@ -28,7 +29,7 @@ class PayPalPayment
     public function __construct()
     {
         
-        if(!$this->mode)
+        if(!$this->live)
         $this->environment = new SandboxEnvironment($this->clientId, $this->clientSecret);
         else
         $this->environment = new ProductionEnvironment($this->clientId, $this->clientSecret);
